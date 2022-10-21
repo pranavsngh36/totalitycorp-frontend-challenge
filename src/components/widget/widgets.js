@@ -3,7 +3,7 @@ import React from "react";
 import {
   TwitterTimelineEmbed,
   TwitterShareButton,
-  TwitterTweetEmbed
+  TwitterTweetEmbed,
 } from "react-twitter-embed";
 import "./widgets.css";
 
@@ -20,11 +20,11 @@ function Widgets() {
         <TwitterTweetEmbed tweetId={"1307046632517664771"} />
         <TwitterTimelineEmbed
           sourceType="profile"
-          screenName="atharvabrand"
+          screenName="Pranav Singh"
           options={{ height: 400 }}
         />
         <TwitterShareButton
-          url={"https://atharvadeosthale.com"}
+          url={"https://pranavsngh36@gmail.com"}
           options={{ text: "React Developer" }}
         />
       </div>
